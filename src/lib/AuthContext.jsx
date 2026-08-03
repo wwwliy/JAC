@@ -21,7 +21,8 @@ export const AuthProvider = ({ children }) => {
   const checkAppState = async () => {
     // GitHub Pages is a static deployment and has no Base44 app/API
     // configuration. The public website must render without authentication.
-    if (!appParams.appId) {
+    const isGitHubPages = typeof window !== 'undefined' && window.location.hostname.endsWith('github.io');
+    if (isGitHubPages || !appParams.appId) {
       setIsLoadingPublicSettings(false);
       setIsLoadingAuth(false);
       setAuthChecked(true);
