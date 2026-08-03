@@ -5,15 +5,15 @@ import { useLanguage } from '@/i18n/LanguageContext';
 
 const HERO_IMAGES = [
   {
-    src: 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/1ae4c6e41_generated_image.png',
+    src: '/www1/images/1ae4c6e41_generated_image.png',
     alt: 'Red JAC heavy-duty forklift at Saudi Arabian industrial port at golden hour',
   },
   {
-    src: 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/b69d628d3_generated_image.png',
+    src: '/www1/images/b69d628d3_generated_image.png',
     alt: 'Red JAC diesel forklift operating in a modern logistics warehouse',
   },
   {
-    src: 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/e89e99179_generated_image.png',
+    src: '/www1/images/e89e99179_generated_image.png',
     alt: 'Red JAC electric forklift at a Saudi Arabian industrial facility',
   },
 ];

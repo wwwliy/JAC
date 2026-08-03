@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./assets/3884c4ab2_jac-BNjt8ak7-BNjt8ak7-BNjt8ak7-BNjt8ak7-BNjt8ak7-BNjt8ak7.png" />
+    <link rel="icon" type="image/png" href="./assets/images/3884c4ab2_jac.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO Meta Tags -->
@@ -106,40 +106,8 @@
       }
     }
     </script>
-    <script type="module" crossorigin src="./assets/index-CVF1sE4k.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-B-t7PttJ.css">
-    <script type="module">
-if (window.self === window.top) {
-  let lastPath = "";
-  function getPageNameFromPath(path) {
-    const segments = path.split("/").filter(Boolean);
-    return segments[0] || null;
-  }
-  function trackPageView() {
-    const path = window.location.pathname;
-    if (path === lastPath) return;
-    lastPath = path;
-    const pageName = getPageNameFromPath(path) || "home";
-    const appId = "";
-    if (!appId) return;
-    fetch(`/api/app-logs/${appId}/log-user-in-app/${pageName}`, {
-      method: "POST",
-    }).catch(() => {});
-  }
-  const originalPushState = history.pushState.bind(history);
-  history.pushState = function (...args) {
-    originalPushState(...args);
-    trackPageView();
-  };
-  const originalReplaceState = history.replaceState.bind(history);
-  history.replaceState = function (...args) {
-    originalReplaceState(...args);
-    trackPageView();
-  };
-  window.addEventListener("popstate", trackPageView);
-  trackPageView();
-}
-</script>
+    <script type="module" crossorigin src="./assets/index-DG9FQSWj.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-llbPPoh5.css">
   </head>
   <body>
     <div id="root"></div>
