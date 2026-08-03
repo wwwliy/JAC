@@ -4,7 +4,7 @@ import Reveal from '@/components/Reveal';
 import SEO from '@/components/SEO';
 import { Image } from '@/components/ui/image';
 
-const ABOUT_IMAGE_1 = '/www1/images/561f6d560_IMG20260105181328.jpg';
+const ABOUT_IMAGE_1 = './images/561f6d560_IMG20260105181328.jpg';
 const ABOUT_IMAGE_2 = 'https://www.jacforklift.com/upload/3699/o/8_about_03.jpg';
 
 export default function About() {
