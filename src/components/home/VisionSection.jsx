@@ -2,7 +2,7 @@ import { Check } from 'lucide-react';
 import { useLanguage } from '@/i18n/LanguageContext';
 import Reveal from '@/components/Reveal';
 
-const VISION_IMAGE = '/www1/images/ed857b767_generated_3883ec93.png';
+const VISION_IMAGE = './images/ed857b767_generated_3883ec93.png';
 
 export default function VisionSection() {
   const { t } = useLanguage();
