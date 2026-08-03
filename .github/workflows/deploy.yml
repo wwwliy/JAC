@@ -27,6 +27,7 @@ jobs:
       - run: npm run build
         env:
           VITE_BASE_PATH: /JAC/
+      - run: cp -a images dist/images
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
