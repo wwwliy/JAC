@@ -9,7 +9,7 @@ export const productCategories = [
   { id: 'roughTerrain', filterKey: 'filterRoughTerrain' },
 ];
 
-export const products = [
+const products = [
   // ===================== DIESEL FORKLIFTS =====================
   {
     id: 'diesel-h-1-1.8t',
@@ -1138,3 +1138,11 @@ export const products = [
     },
   },
 ];
+
+// Resolve product images against the active Vite deployment base path.
+products.forEach((product) => {
+  product.image = image(product.image.replace('/www1/images/', ''));
+});
+
+export { products };
+import { image } from '@/lib/assets';

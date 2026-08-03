@@ -4,8 +4,8 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // The app is published below https://camosa.cn/www1/.
-  base: '/www1/',
+  // Set VITE_BASE_PATH to the deployment subpath, e.g. /JAC/ or /www1/.
+  base: process.env.VITE_BASE_PATH || '/',
   plugins: [
     base44({
       // Support for legacy code that imports the base44 SDK with @/integrations, @/entities, etc.

@@ -39,7 +39,7 @@ function App() {
 
   return (
     <QueryClientProvider client={queryClientInstance}>
-      <Router basename="/www1">
+      <Router basename={import.meta.env.BASE_URL.replace(/\/$/, '')}>
         <LanguageProvider>
           <ScrollToTop />
           <AuthenticatedApp />
