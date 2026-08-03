@@ -9,7 +9,7 @@ export const productCategories = [
   { id: 'roughTerrain', filterKey: 'filterRoughTerrain' },
 ];
 
-const products = [
+export const products = [
   // ===================== DIESEL FORKLIFTS =====================
   {
     id: 'diesel-h-1-1.8t',
@@ -21,7 +21,7 @@ const products = [
     capacity: '1.0 – 1.8T',
     engine: 'Xinchang 4N23G31 Diesel',
     series: 'H',
-    image: '/www1/images/14_2_diesel-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/14_2_diesel-forklift_01.jpg',
     description: {
       en: 'The 1-1.8T H series diesel forklift is constructed based on ergonomics, with freely adjustable seat and steering wheel for a large working space. Compact dimensions, low centre of gravity and small turning radius deliver excellent manoeuvrability for warehouse and light-duty operations.',
       ar: 'رافعة الديزل سلسلة H بسعة 1-1.8 طن مبنية على أساس علم الهندرة، مع مقعد وعجلة قيادة قابلة للتعديل بحرية لمساحة عمل كبيرة. أبعاد مدمجة ومركز ثقل منخفض ونصف قطر دوران صغير توفر маневر ممتاز لعمليات المستودعات والأحمال الخفيفة.',
@@ -61,7 +61,7 @@ const products = [
     capacity: '2.0 – 3.8T',
     engine: 'Bosh High-Pressure Common Rail',
     series: 'H3',
-    image: '/www1/images/14_6_diesel-forklift_2.8t-1.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/14_6_diesel-forklift_2.8t-1.jpg',
     description: {
       en: 'Equipped with Bosch high-pressure common rail National IV engine, the torque is increased by 10% to 190N·m and noise is reduced by 2dB. Designed for heavy-duty operations in ports, warehouses, and construction sites across Saudi Arabia.',
       ar: 'مجهزة بمحرك بوش ذو السكة المشتركة عالية الضغط من الجيل الرابع، يزيد عزم الدوران بنسبة 10% إلى 190 نيوتن·متر ويقلل الضوضاء بمقدار 2 ديسيبل. مصممة للعمليات الثقيلة في الموانئ والمستودعات ومواقع البناء في المملكة العربية السعودية.',
@@ -101,7 +101,7 @@ const products = [
     capacity: '2.0 – 3.5T',
     engine: 'German ZF-GP25 Gearbox',
     series: 'H4',
-    image: '/www1/images/diesel-forklift-forklift-truck-series-2-3-5_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/new/diesel-forklift-forklift-truck-series-2-3-5_01.jpg',
     description: {
       en: 'German ZF-GP25 heavy-duty reduction gearbox provides 21% reserve capacity under full-load conditions. Oil-cooled wet disc brakes reduce routine maintenance requirements.',
       ar: 'علبة تروس التخفيض الثقيلة الألمانية ZF-GP25 توفر سعة احتياطية 21% في ظروف الحمل الكامل. الفرامل القرصية الرطبة المبردة بالزيت تقلل من متطلبات الصيانة الروتينية.',
@@ -141,7 +141,7 @@ const products = [
     capacity: '3.0 – 3.5T',
     engine: 'Xinchang 4D27G31 Diesel',
     series: 'H',
-    image: '/www1/images/14_8_diesel-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/14_8_diesel-forklift_01.jpg',
     description: {
       en: 'The H series 3-3.5T diesel forklift is equipped with a first-class drive system and high-quality gearbox. Aluminium radiator ensures optimal heat dissipation, while the high-level air intake extends engine lifespan. Adjustable seat and steering wheel enlarge the working space.',
       ar: 'رافعة الديزل سلسلة H بسعة 3-3.5 طن مجهزة بنظام قيادة من الدرجة الأولى وعلبة تروس عالية الجودة. المبرد الألمنيوم يضمن تبديد حرارة مثالي، بينما مدخل الهواء العالي يطيل عمر المحرك. المقعد وعجلة القيادة القابلان للتعديل يوسعان مساحة العمل.',
@@ -181,7 +181,7 @@ const products = [
     capacity: '4.0 – 4.5T',
     engine: 'Xinchang/Xichai Diesel',
     series: 'H',
-    image: '/www1/images/14_12_1-6-diesel-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/14_12_1-6-diesel-forklift_01.jpg',
     description: {
       en: 'The 4-4.5T H series diesel forklift features a high-level air intake system with dual air filters for full engine protection. V-shape engine mount reduces vibration, while the patented 10T main reducing gear and axle housing improve drive-axle bearing capacity.',
       ar: 'رافعة الديزل سلسلة H بسعة 4-4.5 طن تتميز بنظام مدخل هواء عالي مع فلترين هواء لحماية كاملة للمحرك. حامل المحرك على شكل V يقلل الاهتزاز، بينما الترس المخفض الرئيسي 10 طن patented وغلاف المحور يحسنان سعة تحمل محور القيادة.',
@@ -221,7 +221,7 @@ const products = [
     capacity: '5.0 – 7.0T',
     engine: 'CA4DF3 Diesel (85kW)',
     series: 'H',
-    image: '/www1/images/14_14_diesel-forklift_01.jpg',
+    image: 'https://jacforklift.com/upload/3699/o/14_14_diesel-forklift_01.jpg',
     description: {
       en: 'The 5-7T H series diesel forklift provides stable and efficient driving through its hydraulic drive system. Hyperbolic main-reducer design ensures smooth meshing and low noise. The hood features built-in heat-insulated, sound-absorbing material with rubber-filled gaps for vibration and noise reduction.',
       ar: 'رافعة الديزل سلسلة H بسعة 5-7 طن توفر قيادة مستقرة وفعالة عبر نظامها الهيدروليكي. تصميم المخفض الرئيسي الزائدي يضمن تعشيق سلس وضوضاء منخفضة. الغطاء مزود بمادة عازلة للحرارة وامتصاص الصوت مع فواصل مطاطية لامتصاص الاهتزاز والضوضاء.',
@@ -261,7 +261,7 @@ const products = [
     capacity: '5.0 – 12.0T',
     engine: 'YC4A125-T300 / CA6DF3 Diesel',
     series: 'J',
-    image: '/www1/images/1-10-j-series-5-12t-internal-combustion-counterbalance-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/1-10-j-series-5-12t-internal-combustion-counterbalance-forklift_01.jpg',
     description: {
       en: 'The J series 5-12T internal combustion counterweight forklift features an electro-hydraulic gearbox for easy operation, with multi-plate clutch on the CPCD120 for quick speed control. A reinforced drive axle suits harsh working conditions, and the low-loss multi-way valve increases lifting efficiency by 10% while reducing oil temperature by 12°C.',
       ar: 'رافعة وزن الموازن الاحتراق الداخلي سلسلة J بسعة 5-12 طن تتميز بعلبة تروس كهروهيدروليكية للتشغيل السهل، مع离合 متعدد الأقراص في CPCD120 للتحكم السريع بالسرعة. محور القيادة المعزز يناسب الظروف القاسية، والصمام متعدد المسارات منخفض الفقد يزيد كفاءة الرفع 10% ويقلل حرارة الزيت 12°م.',
@@ -301,7 +301,7 @@ const products = [
     capacity: '8.0 – 10.0T',
     engine: 'CA4DF3 Diesel (85kW)',
     series: 'H',
-    image: '/www1/images/14_16_diesel-forklift_01.jpg',
+    image: 'https://jacforklift.com/upload/3699/o/14_16_diesel-forklift_01.jpg',
     description: {
       en: 'The 8-10T H series diesel forklift offers engines from ISUZU, PERKINS and other Chinese suppliers with hydraulic/automatic TCM-technology gearbox. The hyperbolic main-reducer design extends drive-axle lifespan, and the upgraded oil-pump speed controller reduces blue smoke during idling and cold start.',
       ar: 'رافعة الديزل سلسلة H بسعة 8-10 طن توفر محركات من ISUZU وPERKINS وموردين صينيين آخرين مع علبة تروس هيدروليكية/أوتوماتيكية بتقنية TCM. تصميم المخفض الرئيسي الزائدي يطيل عمر محور القيادة، ومنظم سرعة مضخة الزيت المطور يقلل الدخان الأزرق أثناء الخمول والبدء البارد.',
@@ -341,7 +341,7 @@ const products = [
     capacity: '12.0 – 18.0T',
     engine: 'CA6DF3 / YC6J175-T302 Diesel',
     series: 'Heavy-Duty',
-    image: '/www1/images/14_18_diesel-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/14_18_diesel-forklift_01.jpg',
     description: {
       en: 'The 12-18T heavy-duty diesel forklift features a scientifically designed power transmission system and a dedicated twin axle for heavy-load lifting. The imported multi-way valve hydraulic system ensures high safety and reliability under remote pilot hand-lever control. The spacious cab can tip over manually or electrically for easy maintenance.',
       ar: 'رافعة الديزل الثقيلة 12-18 طن تتميز بنظام نقل قوة مصمم علمياً ومحور توأم مخصص للرفع الثقيل. نظام الهيدروليك بمضخة متعددة المسارات المستوردة يضمن سلامة وموثوقية عالية تحت تحكم ذراع يدوي عن بعد. الكابينة الفسيحة يمكن أن تنقلب يدوياً أو كهربائياً لصيانة سهلة.',
@@ -381,7 +381,7 @@ const products = [
     capacity: '16.0T',
     engine: 'Yuchai National IV 129kW',
     series: 'J',
-    image: '/www1/images/1-11-diesel-forklift_20.webp',
+    image: 'https://www.jacforklift.com/products/1-11-diesel-forklift_20.webp',
     description: {
       en: 'J Series 16T heavy-duty internal combustion forklift — a newly developed heavy-duty forklift with a modern industrial design. Equipped with Yuchai National IV 129kW six-cylinder engine and BOSCH high-pressure common rail, it features a sliding counterbalanced design increasing load-bearing capacity by 15% and a Meritor 16-ton heavy-duty drive axle for exceptional stability.',
       ar: 'رافعة الاحتراق الداخلي الثقيلة سلسلة J بسعة 16 طن — رافعة ثقيلة مطورة حديثاً بتصميم صناعي حديث. مزودة بمحرك Yuchai الجيل الرابع 129 كيلوواط 6 أسطوانات وبوش سكة مشتركة عالية الضغط، تتميز بتصميم وزن موازن منزلق يزيد سعة التحمل 15% ومحور قيادة Meritor 16 طن ثقيل لاستقرار استثنائي.',
@@ -423,7 +423,7 @@ const products = [
     capacity: '1.0 – 1.8T',
     engine: 'Electric Drive',
     series: 'H',
-    image: '/www1/images/16_2_electric-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/16_2_electric-forklift_01.jpg',
     description: {
       en: 'The H series electric forklift employs an asymmetric drive axle to leave enough space for travel-motor installation, so motor replacement and maintenance can be completed easily without dismantling the gearbox and drive axle.',
       ar: 'رافعة سلسلة H الكهربائية تستخدم محور قيادة غير متماثل لترك مساحة كافية لتركيب محرك السفر، بحيث يمكن استبدال المحرك والصيانة بسهولة دون فك علبة التروس ومحور القيادة.',
@@ -463,7 +463,7 @@ const products = [
     capacity: '1.0 – 1.8T',
     engine: 'Electric Drive',
     series: 'J',
-    image: '/www1/images/16_4-electric-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/b/16_4-electric-forklift_01.jpg',
     description: {
       en: 'The J series 1-1.8T electric forklift is installed with an imported CURTIS controller using patented technology to achieve optimal heat dissipation, ensuring reliable performance for medium-duty warehouse operations.',
       ar: 'رافعة سلسلة J الكهربائية 1-1.8 طن مزودة بوحدة تحكم CURTIS مستوردة بتقنية patented لتحقيق تبديد حرارة مثالي، مما يضمن أداء موثوق لعمليات المستودعات متوسطة الحمل.',
@@ -503,7 +503,7 @@ const products = [
     capacity: '1.0 – 1.8T',
     engine: 'Lithium-Ion Electric',
     series: 'S',
-    image: '/www1/images/3-5-electric-forklift-08.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/b/3-5-electric-forklift-08.jpg',
     description: {
       en: 'The S series 1-1.8T electric forklift uses lithium battery as power source, offering low energy consumption and long working time. A power regeneration function prolongs working time by recovering electric quantity during braking, slowing down and steering.',
       ar: 'رافعة سلسلة S الكهربائية 1-1.8 طن تستخدم بطارية ليثيوم كمصدر طاقة، مما يوفر استهلاك طاقة منخفض وزمن عمل طويل. وظيفة تجديد الطاقة تطيل زمن العمل باستعادة الكهرباء أثناء الكبح والتباطؤ والتوجيه.',
@@ -543,7 +543,7 @@ const products = [
     capacity: '1.5 – 2.0T',
     engine: 'Lithium-Ion Electric',
     series: 'L',
-    image: '/www1/images/1-4-electric-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/new/1-4-electric-forklift_01.jpg',
     description: {
       en: 'A compact counterbalance three-wheel lithium-ion forklift designed for narrow aisles, workshops, container interiors, loading docks and warehouse material handling. With front-wheel drive and rear-wheel steering, it offers three-speed driving modes and an automatic sleep mode after 30 minutes of inactivity.',
       ar: 'رافعة ليثيوم أيون ثلاثية العجلات موازنة مدمجة مصممة للممرات الضيقة والورش وداخل الحاويات وأرصفة التحميل ومناولة المستودعات. بقيادة أمامية وتوجيه خلفي، توفر أوضاع قيادة بثلاث سرعات ووضع نوم تلقائي بعد 30 دقيقة من الخمول.',
@@ -583,7 +583,7 @@ const products = [
     capacity: '1.6 – 2.0T',
     engine: 'Battery Electric',
     series: 'Counterbalance',
-    image: '/www1/images/3-10-3-wheel-counterbalance-battery-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/b/3-10-3-wheel-counterbalance-battery-forklift_01.jpg',
     description: {
       en: 'The 1.6-2T three-wheel counterbalance battery forklift features a lifting-down cushion to reduce impact and improve stability and safety. An idling control system prevents accidents caused by sudden start of the truck.',
       ar: 'رافعة البطارية ثلاثية العجلات وزن موازن 1.6-2 طن تتميز بوسادة هبوط الرفع لتقليل الصدمات وتحسين الاستقرار والسلامة. نظام تحكم الخمول يمنع الحوادث الناتجة عن البدء المفاجئ للشاحنة.',
@@ -623,7 +623,7 @@ const products = [
     capacity: '1.5 – 3.5T',
     engine: 'New Lithium-Ion',
     series: 'L',
-    image: '/www1/images/3-12-electric-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/b/3-12-electric-forklift_01.jpg',
     description: {
       en: 'The new lithium-ion L series 1.5-3.5T electric forklift offers three-speed driving modes to suit various working conditions, with an automatic sleep mode after 30 minutes of inactivity for enhanced safety and energy savings.',
       ar: 'رافعة سلسلة L الجديدة بالليثيوم أيون 1.5-3.5 طن توفر أوضاع قيادة بثلاث سرعات لتناسب ظروف العمل المختلفة، مع وضع نوم تلقائي بعد 30 دقيقة من الخمول لتعزيز السلامة وتوفير الطاقة.',
@@ -663,7 +663,7 @@ const products = [
     capacity: '2.0 – 2.5T',
     engine: 'Electric Drive',
     series: 'J',
-    image: '/www1/images/16_6-electric-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/16_6-electric-forklift_01.jpg',
     description: {
       en: 'The J series 2-2.5T electric forklift is installed with an imported CURTIS controller using patented technology to achieve outstanding heat dissipation. The neutral-gear safety system prevents accidents caused by accidental starting, and the attractive taillight design makes the forklift safe for use.',
       ar: 'رافعة سلسلة J الكهربائية 2-2.5 طن مزودة بوحدة تحكم CURTIS مستوردة بتقنية patented لتحقيق تبديد حرارة ممتاز. نظام سلامة الوضع المحايد يمنع الحوادث الناتجة عن البدء العرضي، والتصميم الجذاب للمصباح الخلفي يجعلها آمنة للاستخدام.',
@@ -703,7 +703,7 @@ const products = [
     capacity: '2.0 – 2.5T',
     engine: 'Lithium-Ion Electric',
     series: 'S',
-    image: '/www1/images/3-6-electric-forklift-08.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/3-6-electric-forklift-08.jpg',
     description: {
       en: 'The S series 2-2.5T electric forklift features high transmission efficiency and low noise thanks to its integrated drive-axle and gearbox structure, with lithium-battery power and a regeneration function that prolongs working time.',
       ar: 'رافعة سلسلة S الكهربائية 2-2.5 طن تتميز بكفاءة نقل عالية وضوضاء منخفضة بفضل هيكل محور القيادة وعلبة التروس المتكامل، مع طاقة بطارية ليثيوم ووظيفة تجديد تطيل زمن العمل.',
@@ -743,7 +743,7 @@ const products = [
     capacity: '2.0 – 3.0T',
     engine: 'Electric Drive',
     series: 'JE',
-    image: '/www1/images/3-9-electric-forklift-01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/3-9-electric-forklift-01.jpg',
     description: {
       en: 'The JE series 2-3T electric forklift delivers 8-10 hours of continuous working time. Its energy regeneration function feeds regenerative energy back to the battery during braking, slowing down and steering, extending battery life for longer operation.',
       ar: 'رافعة سلسلة JE الكهربائية 2-3 طن توفر 8-10 ساعات عمل مستمر. وظيفة تجديد الطاقة تغذي الطاقة المتجددة إلى البطارية أثناء الكبح والتباطؤ والتوجيه، مما يطيل عمر البطارية لعمل أطول.',
@@ -783,7 +783,7 @@ const products = [
     capacity: '2.0 – 3.5T',
     engine: 'Electric Drive',
     series: 'HE 3',
-    image: '/www1/images/2-3-5t-four-wheel-forklift-he-1.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/2-3-5t-four-wheel-forklift-he-1.jpg',
     description: {
       en: 'The HE 3 series 2-3.5T electric forklift uses a high-speed ratio gearbox allowing a 15% increase in driving speed, a 6% enhancement of full-load lifting speed, and a 15% improvement in climbing capability for demanding material handling.',
       ar: 'رافعة سلسلة HE 3 الكهربائية 2-3.5 طن تستخدم علبة تروس نسبة عالية تسمح بزيادة 15% في سرعة القيادة، وتعزيز 6% في سرعة الرفع بالحمل الكامل، وتحسين 15% في قدرة التسلق لمناولة المواد المطلوبة.',
@@ -823,7 +823,7 @@ const products = [
     capacity: '2.0 – 3.5T',
     engine: 'Lithium-Ion Electric',
     series: 'HE 4',
-    image: '/www1/images/four-wheel-lithium-ion-forklift-he-series-4_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/new/four-wheel-lithium-ion-forklift-he-series-4_01.jpg',
     description: {
       en: 'The HE 4 series is a 2.0–3.5T lithium-ion electric counterbalance forklift designed for heavy-duty material handling in large manufacturing workshops, high-density warehouses, outdoor yards, and multi-surface operating environments.',
       ar: 'سلسلة HE 4 هي رافعة كهربائية موازنة بالليثيوم أيون 2.0–3.5 طن مصممة لمناولة المواد الثقيلة في ورش التصنيع الكبيرة والمستودعات عالية الكثافة والساحات الخارجية وبيئات التشغيل متعددة الأسطح.',
@@ -863,7 +863,7 @@ const products = [
     capacity: '3.0 – 3.5T',
     engine: 'Electric Drive',
     series: 'J',
-    image: '/www1/images/16_8-electric-forklift_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/16_8-electric-forklift_01.jpg',
     description: {
       en: 'The J series 3-3.5T electric forklift comes with an enclosed-type dashboard. The simple cab design creates a comfortable working environment for the operator, combining reliability with ergonomic operation for heavier loads.',
       ar: 'رافعة سلسلة J الكهربائية 3-3.5 طن تأتي مع لوحة عدادات مغلقة. تصميم الكابينة البسيط يخلق بيئة عمل مريحة للمشغل، يجمع بين الموثوقية والتشغيل المريحي للأحمال الأثقل.',
@@ -903,7 +903,7 @@ const products = [
     capacity: '3.0 – 5.0T',
     engine: '156V Lithium-Ion',
     series: 'HE',
-    image: '/www1/images/3-8-electric-forklift-01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/3-8-electric-forklift-01.jpg',
     description: {
       en: 'The HE series 3-5T electric forklift features a high-strength truck body for durability. Maximum gradeability reaches 20% under full load, with travel speed up to 20km/h. Lift speed is 340mm/s (standard) or 420mm/s (power type), and fast 90-110 minute charging is available with an optional high-power on-board charger.',
       ar: 'رافعة سلسلة HE الكهربائية 3-5 طن تتميز بهيكل شاحنة عالي القوة للمتانة. أقصى قدرة تسلق تصل 20% تحت الحمل الكامل، بسرعة قيادة حتى 20 كم/س. سرعة الرفع 340 ملم/ث (قياسي) أو 420 ملم/ث (نوع قوة)، والشحن السريع 90-110 دقيقة متاح بشاحن على متن اختياري عالي القوة.',
@@ -943,7 +943,7 @@ const products = [
     capacity: '4.0 – 6.0T',
     engine: 'Lithium-Ion Electric',
     series: 'S',
-    image: '/www1/images/3-7-electric-forklift-08.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/o/3-7-electric-forklift-08.jpg',
     description: {
       en: 'CPD45S/CPD50S/CPD60S electric forklifts offer short braking time and low energy consumption, equipped with a durable wet-type multi-disk brake. The integral drive design lets gearbox oil lubricate gears to reduce maintenance, and lithium-battery power with a regeneration function recovers energy during braking, slowing down and steering.',
       ar: 'رافعات CPD45S/CPD50S/CPD60S الكهربائية توفر زمن كبح قصير واستهلاك منخفض للطاقة، مجهزة بفرامل متعددة الأقراص رطبة متينة. تصميم القيادة المتكامل يسمح لزيت علبة التروس بتشحيم التروس لتقليل الصيانة، وطاقة بطارية الليثيوم مع وظيفة التجديد تستعيد الطاقة أثناء الكبح والتباطؤ والتوجيه.',
@@ -985,7 +985,7 @@ const products = [
     capacity: '1.5 – 2.0T',
     engine: 'Electric Drive',
     series: 'Stacker',
-    image: '/www1/images/5-4-walkie-electric-stacker_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/b/5-4-walkie-electric-stacker_01.jpg',
     description: {
       en: 'Strengthened walkie electric stacker with flexible operation and reinforced structure for demanding warehouse stacking applications.',
       ar: 'رافعة تخزين كهربائية مشي معززة بعمل مرن وهيكل مقوى لتطبيقات التكديس في المستودعات المطلوبة.',
@@ -1025,7 +1025,7 @@ const products = [
     capacity: '1.5T',
     engine: 'Electric Drive',
     series: 'Stacker',
-    image: '/www1/images/5-2-walk-behind-electric-stacker_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/b/5-2-walk-behind-electric-stacker_01.jpg',
     description: {
       en: 'Flexible side stance operator platform, wide-view mast and tighter turning radius improve narrow aisle capability. Ergonomically lengthened control handle provides precise load control.',
       ar: 'منصة مشغل بموقف جانبي مرن، صاري ذو رؤية واسعة ونصف قطر دوران أدق تحسن قدرة الممرات الضيقة. مقبض تحكم مريحي ممدود يوفر تحكماً دقيقاً في الحمل.',
@@ -1065,7 +1065,7 @@ const products = [
     capacity: '1.5 – 2.0T',
     engine: 'Lithium-Ion Electric',
     series: 'Pallet Truck',
-    image: '/www1/images/7-4-lithium-battery-pallet-truck_01.jpg',
+    image: 'https://www.jacforklift.com/upload/3699/b/7-4-lithium-battery-pallet-truck_01.jpg',
     description: {
       en: 'With small turning radius and well-designed structure, the pallet truck is suitable for use in limited space, providing operations with low noise and high efficiency.',
       ar: 'بنصف قطر دوران صغير وهيكل مصمم جيداً، شاحنة المنصة مناسبة للاستخدام في المساحات المحدودة، مما يوفر عمليات بضوضاء منخفضة وكفاءة عالية.',
@@ -1107,7 +1107,7 @@ const products = [
     capacity: '3.5T',
     engine: 'Diesel (2WD)',
     series: 'CPCD35J',
-    image: '/www1/images/19_off-road-forklift_01.jpg',
+    image: 'https://jacforklift.com/upload/3699/b/19_off-road-forklift_01.jpg',
     description: {
       en: 'The CPCD35J rough terrain forklift is an ideal piece of material handling equipment for outdoor construction and loading activities. Featuring large pneumatic tires with deep treads, it operates on rough roads and ground cover without sliding, while also performing well on paved ground — allowing one unit to move between outdoor sites and warehouses.',
       ar: 'رافعة التضاريس الوعرة CPCD35J هي معدات مثالية لمناولة المواد لأنشطة البناء الخارجية والتحميل. تتميز بإطارات هوائية كبيرة بمداس عميق، تعمل على الطرق الوعرة والأرضيات دون انزلاق، وتؤدي بشكل ممتاز أيضاً على الأرض المعبدة — مما يسمح لوحدة واحدة بالانتقال بين المواقع الخارجية والمستودعات.',
@@ -1138,11 +1138,3 @@ const products = [
     },
   },
 ];
-
-// Resolve product images against the active Vite deployment base path.
-products.forEach((product) => {
-  product.image = image(product.image.replace('/www1/images/', ''));
-});
-
-export { products };
-import { image } from '@/lib/assets';

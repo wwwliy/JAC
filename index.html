@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="%BASE_URL%images/3884c4ab2_jac.png" />
+    <link rel="icon" type="image/png" href="./assets/3884c4ab2_jac-BNjt8ak7.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Primary SEO Meta Tags -->
@@ -19,7 +19,7 @@
     <meta property="og:url" content="https://jacforklift-saudi.com/" />
     <meta property="og:title" content="JAC Forklift Saudi Arabia | Exclusive KSA Distributor" />
     <meta property="og:description" content="Exclusive distributor of JAC industrial forklifts in Saudi Arabia. Diesel, electric, and LPG forklifts backed by Kingdom-wide service and parts network." />
-    <meta property="og:image" content="%BASE_URL%images/pic_09.jpg" />
+    <meta property="og:image" content="/www1/images/pic_09.jpg" />
     <meta property="og:locale" content="en_SA" />
     <meta property="og:locale:alternate" content="ar_SA" />
     <meta property="og:locale:alternate" content="zh_CN" />
@@ -28,7 +28,7 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="JAC Forklift Saudi Arabia | Exclusive KSA Distributor" />
     <meta name="twitter:description" content="Exclusive distributor of JAC industrial forklifts in Saudi Arabia. Diesel, electric, and LPG forklifts backed by Kingdom-wide service." />
-    <meta name="twitter:image" content="%BASE_URL%images/pic_09.jpg" />
+    <meta name="twitter:image" content="/www1/images/pic_09.jpg" />
 
     <!-- Hreflang Tags -->
     <link rel="alternate" hreflang="en-sa" href="https://jacforklift-saudi.com/?lang=en" />
@@ -47,8 +47,8 @@
       "alternateName": "JAC Forklift KSA",
       "description": "Exclusive distributor of JAC industrial forklifts in Saudi Arabia. Diesel, electric, LPG forklifts, parts, and service aligned with Vision 2030.",
       "url": "https://jacforklift-saudi.com/",
-      "logo": "%BASE_URL%images/3884c4ab2_jac.png",
-      "image": "%BASE_URL%images/pic_09.jpg",
+      "logo": "/www1/images/jac-logo.png",
+      "image": "/www1/images/pic_09.jpg",
       "telephone": "+966-11-472-0000",
       "email": "info@jacforklift-saudi.com",
       "priceRange": "$$$",
@@ -91,7 +91,7 @@
       "@type": "Organization",
       "name": "JAC Forklift Saudi Arabia",
       "url": "https://jacforklift-saudi.com/",
-      "logo": "%BASE_URL%images/3884c4ab2_jac.png",
+      "logo": "/www1/images/jac-logo.png",
       "parentOrganization": {
         "@type": "Organization",
         "name": "JAC Heavy-Duty Construction Machine Co., Ltd.",
@@ -106,9 +106,42 @@
       }
     }
     </script>
+    <script type="module" crossorigin src="./assets/index-Bnc19ohZ.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-B-t7PttJ.css">
+    <script type="module">
+if (window.self === window.top) {
+  let lastPath = "";
+  function getPageNameFromPath(path) {
+    const segments = path.split("/").filter(Boolean);
+    return segments[0] || null;
+  }
+  function trackPageView() {
+    const path = window.location.pathname;
+    if (path === lastPath) return;
+    lastPath = path;
+    const pageName = getPageNameFromPath(path) || "home";
+    const appId = "";
+    if (!appId) return;
+    fetch(`/api/app-logs/${appId}/log-user-in-app/${pageName}`, {
+      method: "POST",
+    }).catch(() => {});
+  }
+  const originalPushState = history.pushState.bind(history);
+  history.pushState = function (...args) {
+    originalPushState(...args);
+    trackPageView();
+  };
+  const originalReplaceState = history.replaceState.bind(history);
+  history.replaceState = function (...args) {
+    originalReplaceState(...args);
+    trackPageView();
+  };
+  window.addEventListener("popstate", trackPageView);
+  trackPageView();
+}
+</script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="./src/main.jsx"></script>
   </body>
 </html>

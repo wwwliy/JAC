@@ -1,9 +1,8 @@
 import { Check } from 'lucide-react';
 import { useLanguage } from '@/i18n/LanguageContext';
-import { image } from '@/lib/assets';
 import Reveal from '@/components/Reveal';
 
-const VISION_IMAGE = image('ed857b767_generated_3883ec93.png');
+const VISION_IMAGE = 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/ed857b767_generated_3883ec93.png';
 
 export default function VisionSection() {
   const { t } = useLanguage();

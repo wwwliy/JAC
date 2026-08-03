@@ -4,8 +4,9 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  // Set VITE_BASE_PATH to the deployment subpath, e.g. /JAC/ or /www1/.
-  base: process.env.VITE_BASE_PATH || '/',
+  // The same static build is served from /www1/ on the server and /JAC/ on
+  // GitHub Pages. Relative asset URLs work in both locations.
+  base: './',
   plugins: [
     base44({
       // Support for legacy code that imports the base44 SDK with @/integrations, @/entities, etc.

@@ -3,10 +3,9 @@ import { useLanguage } from '@/i18n/LanguageContext';
 import Reveal from '@/components/Reveal';
 import SEO from '@/components/SEO';
 import { Image } from '@/components/ui/image';
-import { image } from '@/lib/assets';
 
-const ABOUT_IMAGE_1 = image('561f6d560_IMG20260105181328.jpg');
-const ABOUT_IMAGE_2 = image('8_about_03.jpg');
+const ABOUT_IMAGE_1 = 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/561f6d560_IMG20260105181328.jpg';
+const ABOUT_IMAGE_2 = 'https://www.jacforklift.com/upload/3699/o/8_about_03.jpg';
 
 export default function About() {
   const { t } = useLanguage();

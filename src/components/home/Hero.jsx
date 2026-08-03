@@ -2,19 +2,18 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { useLanguage } from '@/i18n/LanguageContext';
-import { image } from '@/lib/assets';
 
 const HERO_IMAGES = [
   {
-    src: image('1ae4c6e41_generated_image.png'),
+    src: 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/1ae4c6e41_generated_image.png',
     alt: 'Red JAC heavy-duty forklift at Saudi Arabian industrial port at golden hour',
   },
   {
-    src: image('b69d628d3_generated_image.png'),
+    src: 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/b69d628d3_generated_image.png',
     alt: 'Red JAC diesel forklift operating in a modern logistics warehouse',
   },
   {
-    src: image('e89e99179_generated_image.png'),
+    src: 'https://media.base44.com/images/public/6a59218ea9b7facf447652a0/e89e99179_generated_image.png',
     alt: 'Red JAC electric forklift at a Saudi Arabian industrial facility',
   },
 ];
