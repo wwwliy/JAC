@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/toaster"
 import { QueryClientProvider } from '@tanstack/react-query'
 import { queryClientInstance } from '@/lib/query-client'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import { LanguageProvider } from '@/i18n/LanguageContext';
 import Layout from '@/components/Layout';
@@ -13,15 +13,6 @@ import Dealers from '@/pages/Dealers';
 import About from '@/pages/About';
 import ServiceSupport from '@/pages/ServiceSupport';
 import Contact from '@/pages/Contact';
-
-// GitHub Pages serves this app below /JAC/, while the production server
-// serves it below /www1/. Keep the router in sync with either mount point.
-const getRouterBasename = () => {
-  const pathname = window.location.pathname;
-  if (pathname === '/JAC' || pathname.startsWith('/JAC/')) return '/JAC';
-  if (pathname === '/www1' || pathname.startsWith('/www1/')) return '/www1';
-  return undefined;
-};
 
 const PublicApp = () => {
   return (
@@ -47,7 +38,7 @@ function App() {
 
   return (
       <QueryClientProvider client={queryClientInstance}>
-        <Router basename={getRouterBasename()}>
+        <Router>
           <LanguageProvider>
             <ScrollToTop />
             <PublicApp />
